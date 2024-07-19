@@ -1,0 +1,18 @@
+﻿<Window x:Class="BlogManager.Views.PostEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Post" 
+        Height="200"
+        Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="TitleTextBox"
+                     Margin="0,0,0,10" />
+            <TextBox x:Name="ContentTextBox"
+                     Margin="0,0,0,10" 
+                     Height="100" />
+            <Button Content="Save"
+                    Click="SaveButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
